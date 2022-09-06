@@ -12,6 +12,7 @@ function App() {
         <Route path="/movie/:id" element={<Detail />}></Route>
         <Route path="/" element={<Home />}></Route>
       </Routes>
+      <h1>Heelo</h1>
     </Router>
   );
 }
